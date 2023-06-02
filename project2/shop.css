@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 50px;
+    border-bottom: .1px solid rgb(219, 219, 219);
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.search{
+    height: 40px;
+    border: none;
+    outline: 0;
+    font-size: 25px;
+    padding: 20px;
+}
+.name{
+    color: blue;
+    border: .5px solid blue;
+    padding: 15px;
+    margin-right: 100px;
+    font-size: 30px;
+}
+.icons{
+    font-size: 20px;
+}
+.fa-user{
+    color: black;
+    
+}
+.fa-heart{
+    margin: 0 20px;
+    color: black;
+}
+.fa-cart-shopping{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.to-links{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 40px 0;
+}
+.links{
+    font-size: 20px;
+    margin: 25px;
+    color: black;
+}
+.linksa{
+    font-size: 20px;
+    margin: 25px;
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding-bottom: 40px;
+}
+.links:hover{
+    color: blue;
+}
+.line{
+    height: 60px;
+    background-color: rgb(242, 242, 242);
+    font-size: 25px;
+    padding: 17.5px 140px;
+    margin: 50px 0 100px;
+    font-family:'Courier New', Courier, monospace;
+}
+.line a{
+    color: black;
+}
+.line .about{
+    color: blue;
+}
+.main{
+    display: flex;
+    position: relative;
+}
+.left{
+    border: 1px solid rgb(189, 187, 187);
+    width: 300px;
+    height: 220px;
+    margin: 120px 0 0 120px;
+    padding: 30px;
+}
+.up{
+    display: flex;
+}
+.up0 p{
+    margin: 20px 130px 0 0;
+}
+.up00 p{
+    margin: 20px 130px 0 0;
+    color: blue;
+}
+.down{
+    border: 1px solid rgb(189, 187, 187);
+    width: 300px;
+    height: 550px;
+    margin: 30px 0 0 120px;
+    padding: 30px;
+}
+
+.down input{
+    width: 15px;
+    margin: 0 10px 0 3px;
+}
+.down label{
+    font-size: 15px;
+    position: absolute;
+    margin: 12px 0 0;
+}
+
+.color p{
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.down h2{
+    margin: 20px 0;
+}
+.down li{
+    margin: 20px 20px;
+}
+.part4{
+    height: 900px;
+}
+.main0{
+    margin: 120px 0 50px 150px;
+    font-size: 25px;
+    display: flex;
+}
+.test{
+    width: 200px;
+    margin-left: 530px;
+    font-size: 25px;
+    background-color: gainsboro;
+}
+.test:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.test:focus{
+    background-color: white;
+}
+.test0{
+    width: 200px;
+    background-color: gainsboro;
+    font-size: 25px;
+    margin-left: 20px;
+}
+.test0:hover{
+    box-shadow: 2px 2px 10px black;
+}
+.test0:focus{
+    background-color: white;
+}
+.to-part4{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+.border{
+    height: 400px;
+    margin: 50px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(126, 123, 123);
+}
+.border img{
+    background-size: contain;
+    width: 300px;
+}
+.border a{
+    margin: 0 80px 0 0;
+}
+.part4 h3{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    margin-bottom: -25px;
+}
+.part4 p{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    margin-bottom: -25px;
+}
+.part3{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+}
+ .part30{
+    margin: 900px 0 0 800px;
+    font-size: 50px;
+}
+
+.children{
+    background-image: url(girl.png);
+    background-size: contain;
+    width: 500px;
+    height: 650px;
+
+}
+.women{
+    background-image: url(children.jpg);
+    background-size: contain;
+    width: 500px;
+    height: 650px;
+}
+.man{
+    background-image: url(men.jpg);
+    background-size: contain;
+    
+    width: 500px;
+    height: 650px;
+}
+.part3 p{
+    margin: 570px 0 0 30px;
+    color: white;
+    font-size: 20px;
+}
+.part3 h3{
+    font-size: 50px;
+    margin-left: 25px;
+    color: white;
+}
+footer{
+    height: 750px;
+    background-color: rgb(242, 242, 242);
+    padding: 80px;
+    font-size: 25px;
+}
+.foot{
+    display: flex;
+}
+.lines{
+    display: flex;
+}
+.lin1{
+    margin-right: 100px;
+}
+.lin p{
+    margin-top: 20px;
+}
+.lin1 a{
+    color: gray;
+}
+.promo img{
+    width: 400px;
+    margin: 30px 0;
+}
+.fin{ 
+    margin-bottom: 10px;
+    color: blue;
+}
+.contact{
+    font-size: 20px;
+    margin-left: 90px;
+}
+.contact ul{
+    display: flex;
+    margin: 50px 0;
+}
+.contact i{
+    color: blue;
+    margin-right: 10px;
+}
+.sub{
+    margin: 150px 0 20px 0;
+}
+input{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+}
+.send{
+    width: 70px;
+    color: white;
+    background-color: blue;
+}
+.end{
+    margin: 150px 370px;
+}
+span{
+    color: blue;
+}

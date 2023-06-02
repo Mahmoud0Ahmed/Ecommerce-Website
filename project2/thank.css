@@ -1,0 +1,178 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 50px;
+    border-bottom: .1px solid rgb(219, 219, 219);
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.search{
+    height: 40px;
+    border: none;
+    outline: 0;
+    font-size: 25px;
+    padding: 20px;
+}
+.name{
+    color: blue;
+    border: .5px solid blue;
+    padding: 15px;
+    margin-right: 100px;
+    font-size: 30px;
+}
+.icons{
+    font-size: 20px;
+}
+.fa-user{
+    color: black;
+    
+}
+.fa-heart{
+    margin: 0 20px;
+    color: black;
+}
+.fa-cart-shopping{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.to-links{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 40px 0;
+}
+.links{
+    font-size: 20px;
+    margin: 25px;
+    color: black;
+}
+.links:hover{
+    color: blue;
+}
+.linksa{
+    font-size: 20px;
+    margin: 25px;
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding-bottom: 40px;
+}
+.line{
+    height: 60px;
+    background-color: rgb(242, 242, 242);
+    font-size: 25px;
+    padding: 17.5px 140px;
+    margin: 50px 0 100px;
+    font-family:'Courier New', Courier, monospace;
+}
+.line a{
+    color: black;
+}
+.line .about{
+    color: blue;
+}
+section{
+    height: 500px;
+    text-align: center;
+}
+section i{
+    font-size: 50px;
+}
+.true{
+    padding: 10px;
+    width: 70px;
+    height: 70px;
+    color: white;
+    background-color: rgb(8, 195, 36);
+    border-radius: 50px;
+    margin: 0 915px 20px;
+}
+section h1{
+    font-size: 70px;
+    margin: 30px;
+}
+.para{
+    font-size: 15px;
+    color: rgb(150, 149, 149);
+}
+section a{
+   color: white;
+   background-color: blue;
+   padding: 20px 30px; 
+   position: absolute;
+   margin: 50px -90px;
+   border-radius: 5px;
+}
+section a:hover{
+    box-shadow: 2px 2px 15px blue;
+}
+span{
+    color: blue;
+}
+footer{
+    height: 750px;
+    background-color: rgb(242, 242, 242);
+    padding: 80px;
+    font-size: 25px;
+}
+.foot{
+    display: flex;
+}
+.lines{
+    display: flex;
+}
+.lin1{
+    margin-right: 100px;
+}
+.lin p{
+    margin-top: 20px;
+}
+.lin1 a{
+    color: gray;
+}
+.promo img{
+    width: 400px;
+    margin: 30px 0;
+}
+.fin{ 
+    margin-bottom: 10px;
+    color: blue;
+}
+.contact{
+    font-size: 20px;
+    margin-left: 90px;
+}
+.contact ul{
+    display: flex;
+    margin: 50px 0;
+}
+.contact i{
+    color: blue;
+    margin-right: 10px;
+}
+.sub{
+    margin: 150px 0 20px 0;
+}
+input{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+}
+.send{
+    width: 70px;
+    color: white;
+    background-color: blue;
+}
+.end{
+    margin: 150px 370px;
+}

@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 50px;
+    border-bottom: .1px solid rgb(219, 219, 219);
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.search{
+    height: 40px;
+    border: none;
+    outline: 0;
+    font-size: 25px;
+    padding: 20px;
+}
+.name{
+    color: blue;
+    border: .5px solid blue;
+    padding: 15px;
+    margin-right: 100px;
+    font-size: 30px;
+}
+.icons{
+    font-size: 20px;
+}
+.fa-user{
+    color: black;
+    
+}
+.fa-heart{
+    margin: 0 20px;
+    color: black;
+}
+.fa-cart-shopping{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.to-links{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 40px 0;
+}
+.links{
+    font-size: 20px;
+    margin: 25px;
+    color: black;
+}
+.links:hover{
+    color: blue;
+}
+.linksa{
+    font-size: 20px;
+    margin: 25px;
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding-bottom: 40px;
+}
+.line{
+    height: 60px;
+    background-color: rgb(242, 242, 242);
+    font-size: 25px;
+    padding: 17.5px 140px;
+    margin: 50px 0 100px;
+    font-family:'Courier New', Courier, monospace;
+}
+.line a{
+    color: black;
+}
+.line .about{
+    color: blue;
+}
+.part1{
+    background-image: url(cloth_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 600px;
+    margin-left: 130px;
+    margin-top: 150px;
+}
+.part1-text{
+    width: 650px;
+    margin-left: 850px;
+}
+.part1-text h1{
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.desc{
+    line-height: 1.9;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color: rgb(67, 64, 64);
+}
+.price{
+    font-size: 30px;
+    color: blue;
+    margin: 13px 0;
+}
+form{
+    display: flex;
+}
+.part1-text input{
+    width: 20px;
+    margin: 0 0 10px;
+}
+.part1-text label{
+    font-size: 20px;
+    margin: 0 100px 0 10px;
+    position: relative;
+    margin-top: 10px;
+}
+.part1-text .num{
+    width: 150px;
+}
+.shop{
+    font-size: 20px;
+    padding: 15px 30px;
+    position: absolute;
+    margin-top: 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.shop:hover{
+    box-shadow: 2px 2px 20px blue;
+}
+.part4{
+    height: 900px;
+    background-color: rgb(242, 242, 242);
+}
+.main{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.to-part4{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+    padding: 0 150px;
+}
+.border{
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(126, 123, 123);
+}
+.border a{
+    margin: 0 80px 0 0;
+}
+.part4 h3{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    margin-bottom: -25px;
+}
+.part4 p{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    margin-bottom: -25px;
+}
+footer{
+    height: 750px;
+    background-color: rgb(242, 242, 242);
+    padding: 80px;
+    font-size: 25px;
+}
+.foot{
+    display: flex;
+}
+.lines{
+    display: flex;
+}
+.lin1{
+    margin-right: 100px;
+}
+.lin p{
+    margin-top: 20px;
+}
+.lin1 a{
+    color: gray;
+}
+.promo img{
+    width: 400px;
+    margin: 30px 0;
+}
+.fin{ 
+    margin-bottom: 10px;
+    color: purple;
+}
+.contact{
+    font-size: 20px;
+    margin-left: 90px;
+}
+.contact ul{
+    display: flex;
+    margin: 50px 0;
+}
+.contact i{
+    color: blue;
+    margin-right: 10px;
+}
+.sub{
+    margin: 150px 0 20px 0;
+}
+input{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+}
+.send{
+    width: 70px;
+    color: white;
+    background-color: blue;
+}
+.end{
+    margin: 150px 370px;
+}
+span{
+    color: blue;
+}

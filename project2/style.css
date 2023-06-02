@@ -1,0 +1,289 @@
+/* (nav) index and about */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 50px;
+    border-bottom: .1px solid rgb(219, 219, 219);
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.search{
+    height: 40px;
+    border: none;
+    outline: 0;
+    font-size: 25px;
+    padding: 20px;
+}
+.name{
+    color: blue;
+    border: .5px solid blue;
+    padding: 15px;
+    margin-right: 100px;
+    font-size: 30px;
+}
+.icons{
+    font-size: 20px;
+}
+.fa-user{
+    color: black;
+    
+}
+.fa-user:hover{
+    color: blue;
+}
+.fa-heart{
+    margin: 0 20px;
+    color: black;
+}
+.fa-heart:hover{
+    color: blue;
+}
+.fa-cart-shopping{
+    color: black;
+}
+.fa-cart-shopping:hover{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+.to-links{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 40px 0;
+}
+.links{
+    font-size: 20px;
+    margin: 25px;
+    color: black;
+}
+.links:hover{
+    color: blue;
+}
+.linksa{
+    font-size: 20px;
+    margin: 25px;
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding-bottom: 40px;
+}
+.part1{
+    height: 800px;
+    background-image: url(hero_1.jpg);
+}
+.part1-text{
+    margin-left: 1100px;
+    padding-top: 180px;
+}
+.part1-text h1{
+    width: 600px;
+    font-size: 80px;
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+.part1-text p{
+    width: 710px;
+    line-height: 1.6;
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: rgb(67, 64, 64);
+}
+.shop{
+    font-size: 20px;
+    padding: 15px 30px;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+}
+.shop:hover{
+    box-shadow: 2px 2px 20px blue;
+}
+.part2{
+    display: flex;
+    justify-content: space-around;
+    font-size: 40PX;
+}
+.items{
+    display: flex;
+    margin: 80px 130px;
+    line-height: 1.6;
+}
+.part2 h2{
+    font-size: 20px;
+}
+.part2 p{
+    font-size: 15px;
+}
+.part2 i {
+    color: blue;
+    margin: 0 25px;
+}
+.part3{
+    display: flex;
+    justify-content: space-around;
+    padding: 120px;
+}
+.children{
+    background-image: url(girl.png);
+    background-size: contain;
+    width: 500px;
+    height: 650px;
+
+}
+.women{
+    background-image: url(children.jpg);
+    background-size: contain;
+    width: 500px;
+    height: 650px;
+}
+.man{
+    background-image: url(men.jpg);
+    background-size: contain;
+    
+    width: 500px;
+    height: 650px;
+}
+.part3 p{
+    margin: 570px 0 0 30px;
+    color: white;
+    font-size: 20px;
+}
+.part3 h3{
+    font-size: 50px;
+    margin-left: 25px;
+    color: white;
+}
+.part4{
+    height: 900px;
+    background-color: rgb(242, 242, 242);
+}
+.main{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+}
+.to-part4{
+    justify-content: space-around;
+    display: flex;
+    margin-top: 50px;
+    padding: 0 150px;
+}
+.border{
+    height: 500px;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgb(126, 123, 123);
+}
+.border a{
+    margin: 0 80px 0 0;
+}
+.part4 h3{
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    margin-bottom: -25px;
+}
+.part4 p{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    height: 30px;
+    margin-bottom: -25px;
+}
+.to-part5{
+    display: flex;
+    margin: 100px;
+}
+.del{
+    margin: 150px 200px;
+    text-align: center;
+}
+.to-part5 h1{
+    color: blue;
+    width: 500px;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.to-part5 p{
+    width: 550px;
+    line-height: 1.6;
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: rgb(67, 64, 64);
+}
+span{
+    color: blue;
+}
+.del a{
+    position: relative;
+    top: 30px;
+}
+/* (footer) index and about */
+footer{
+    height: 750px;
+    background-color: rgb(242, 242, 242);
+    padding: 80px;
+    font-size: 25px;
+}
+.foot{
+    display: flex;
+}
+.lines{
+    display: flex;
+}
+.lin1{
+    margin-right: 100px;
+}
+.lin p{
+    margin-top: 20px;
+}
+.lin1 a{
+    color: gray;
+}
+.promo img{
+    width: 400px;
+    margin: 30px 0;
+}
+.fin{ 
+    margin-bottom: 10px;
+    color: blue;
+}
+.contact{
+    font-size: 20px;
+    margin-left: 90px;
+}
+.contact ul{
+    display: flex;
+    margin: 50px 0;
+}
+.contact i{
+    color: blue;
+    margin-right: 10px;
+}
+.sub{
+    margin: 150px 0 20px 0;
+}
+input{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+}
+.send{
+    width: 70px;
+    color: white;
+    background-color: blue;
+}
+.end{
+    margin: 150px 370px;
+}

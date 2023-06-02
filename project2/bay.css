@@ -1,0 +1,246 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 50px;
+    border-bottom: .1px solid rgb(219, 219, 219);
+}
+.fa-magnifying-glass{
+    font-size: 20px;
+}
+.search{
+    height: 40px;
+    border: none;
+    outline: 0;
+    font-size: 25px;
+    padding: 20px;
+}
+.name{
+    color: blue;
+    border: .5px solid blue;
+    padding: 15px;
+    margin-right: 100px;
+    font-size: 30px;
+}
+.icons{
+    font-size: 20px;
+}
+.fa-user{
+    color: black;
+    
+}
+.fa-heart{
+    margin: 0 20px;
+    color: black;
+}
+.fa-cart-shopping{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.to-links{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 40px 0;
+}
+.links{
+    font-size: 20px;
+    margin: 25px;
+    color: black;
+}
+.links:hover{
+    color: blue;
+}
+.linksa{
+    font-size: 20px;
+    margin: 25px;
+    color: blue;
+    border-bottom: 3px solid blue;
+    padding-bottom: 40px;
+}
+.line{
+    height: 60px;
+    background-color: rgb(242, 242, 242);
+    font-size: 25px;
+    padding: 17.5px 140px;
+    margin: 50px 0 100px;
+    font-family:'Courier New', Courier, monospace;
+}
+.line a{
+    color: black;
+}
+.line .about{
+    color: blue;
+}
+.border{
+    margin: 150px;
+    font-size: 20px;
+    border: 1px solid rgb(205, 200, 200);
+}
+.border img{
+    width: 200px;
+}
+table{
+    border-collapse:collapse;
+}
+.main0{
+    font-weight: bold;
+}
+.mony{
+    color: rgb(148, 148, 148);
+}
+th{
+    padding: 40px 70px;
+}
+th p{
+    color: white;
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+}
+.cart{
+    display: flex;
+    margin: 0 0 150px 130px;
+}
+.part1{
+    display: flex;
+}
+.part1 p{
+    width: 300px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+    background-color: blue;
+    margin: 0 20px;
+    padding: 14px;
+}
+.part1 .p2{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 12px;
+}
+.part1 p:hover{
+    box-shadow: 2px 2px 15px blue;
+}
+
+.cart h2{
+    width: 300px;
+    border-bottom: 1px solid rgb(179, 177, 177);
+    padding:0 0 40px 0;
+    padding-left: 132px;
+    margin-left: 630px;
+}
+.to-part2{
+    display: flex;
+    margin-left: 450px;
+}
+.to-part2 p{
+    margin: 35px 0 0 180px;
+}
+.part2 .p2{
+    color: white;
+    background-color: blue;
+    width: 300px;
+    margin: 60px 0 0 630px ;
+    padding: 20px;
+    text-align: center;
+}
+.part2 .p2:hover{
+    box-shadow: 2px 2px 15px blue;
+}
+.coupon{
+    margin: 80px 0 0 20px;
+}
+.coupon h3{
+    font-size: 25px;
+    margin: 20px 0;
+}
+.coupon p{
+    margin: 20px 0;
+    color: rgb(176, 172, 172);
+
+}
+.coupon .code{
+    width: 350px;
+    height: 50px;
+}
+.coupon .sum{
+    color: white;
+    background-color: blue;
+    height: 50px;
+    margin: 0 30px;
+}
+.coupon .sum:hover{
+    box-shadow: 2px 2px 15px blue;
+}
+footer{
+    height: 750px;
+    background-color: rgb(242, 242, 242);
+    padding: 80px;
+    font-size: 25px;
+}
+.foot{
+    display: flex;
+}
+.lines{
+    display: flex;
+}
+.lin1{
+    margin-right: 100px;
+}
+.lin p{
+    margin-top: 20px;
+}
+.lin1 a{
+    color: gray;
+}
+.promo img{
+    width: 400px;
+    margin: 30px 0;
+}
+.fin{ 
+    margin-bottom: 10px;
+    color: blue;
+}
+.contact{
+    font-size: 20px;
+    margin-left: 90px;
+}
+.contact ul{
+    display: flex;
+    margin: 50px 0;
+}
+.contact i{
+    color: blue;
+    margin-right: 10px;
+}
+.sub{
+    margin: 150px 0 20px 0;
+}
+input{
+    width: 200px;
+    height: 40px;
+    padding: 10px;
+}
+.send{
+    width: 70px;
+    color: white;
+    background-color: blue;
+}
+.end{
+    margin: 150px 370px;
+}
+span{
+    color: blue;
+}
